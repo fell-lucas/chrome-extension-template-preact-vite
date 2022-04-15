@@ -1,27 +1,21 @@
-import React from "react";
-import logo from "@assets/img/logo.svg";
-import "@pages/Newtab/Newtab.css";
-import "@pages/Newtab/Newtab.scss";
+import { Logo } from "@src/assets/img/logo";
 
 const Newtab = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/Newtab/Newtab.tsx</code> and save to reload.
-        </p>
+    <>
+      <Logo />
+      <p>Hello Vite + Preact!</p>
+      <p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          class="link"
+          href="https://preactjs.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!
+          Learn Preact
         </a>
-        <h6>The color of this paragraph is defined using SASS.</h6>
-      </header>
-    </div>
+      </p>
+    </>
   );
 };
 

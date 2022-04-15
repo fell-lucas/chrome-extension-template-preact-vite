@@ -1,25 +1,21 @@
-import React from "react";
-import logo from "@assets/img/logo.svg";
-import "@pages/Popup/Popup.css";
+import { Logo } from "@src/assets/img/logo";
 
 const Popup = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
-        </p>
+    <>
+      <Logo />
+      <p>Hello Vite + Preact!</p>
+      <p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          class="link"
+          href="https://preactjs.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!
+          Learn Preact
         </a>
-      </header>
-    </div>
+      </p>
+    </>
   );
 };
 

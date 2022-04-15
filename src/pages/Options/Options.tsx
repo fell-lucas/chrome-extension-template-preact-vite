@@ -1,9 +1,9 @@
-import React from "react";
-import "@pages/Options/Options.css";
-
-
-const Options: React.FC = () => {
-  return <div className="OptionsContainer">Options</div>;
+const Options = () => {
+  return (
+    <div>
+      <h1>My new extension options page</h1>
+    </div>
+  );
 };
 
 export default Options;

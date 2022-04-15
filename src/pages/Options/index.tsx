@@ -1,15 +1,12 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
+import { render } from "preact";
 import Options from "@pages/Options/Options";
-import "@pages/Options/index.css";
 
 function init() {
   const appContainer = document.querySelector("#app-container");
   if (!appContainer) {
     throw new Error("Can not find AppContainer");
   }
-  const root = createRoot(appContainer);
-  root.render(<Options />);
+  render(<Options />, appContainer);
 }
 
 init();

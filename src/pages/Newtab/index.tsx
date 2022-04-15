@@ -1,15 +1,12 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
+import { render } from "preact";
 import Newtab from "@pages/Newtab/Newtab";
-import "@pages/Newtab/index.css";
 
 function init() {
   const appContainer = document.querySelector("#app-container");
   if (!appContainer) {
     throw new Error("Can not find AppContainer");
   }
-  const root = createRoot(appContainer);
-  root.render(<Newtab />);
+  render(<Newtab />, appContainer);
 }
 
 init();

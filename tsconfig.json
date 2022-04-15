@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "types": ["vite/client", "node"],
+    "types": ["vite/client", "node", "chrome"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,7 +14,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
     "baseUrl": ".",
     "paths": {
       "@src/*": ["src/*"],
@@ -22,5 +24,6 @@
       "@pages/*": ["src/pages/*"]
     }
   },
-  "include": ["src", "plugins", "vite.config.ts"],
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
