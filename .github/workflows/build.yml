@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Cache pnpm modules
         uses: actions/cache@v2
         with:
@@ -28,4 +28,5 @@ jobs:
         with:
           version: 6.32.7
           run_install: true
+
       - run: pnpm build

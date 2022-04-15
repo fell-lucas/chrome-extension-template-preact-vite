@@ -1,19 +1,19 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "chrome-ext-template-preact-windi-vite",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "Chrome extension template with Preact, Windi CSS, Vite and Typescript preconfigured.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
+    "url": "https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite.git"
   },
   "scripts": {
-    "build": "tsc --noEmit && vite build",
+    "build": "vite build",
     "dev": "nodemon"
   },
   "type": "module",
   "devDependencies": {
-    "@babel/core": ">=7.12.10 <8.0.0",
+    "@babel/core": "^7.17.9",
     "@preact/preset-vite": "^2.2.0",
     "@types/chrome": "^0.0.180",
     "@types/node": "^17.0.24",
@@ -26,10 +26,10 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.15",
-    "preact": ">=10.4.0 <11.0.0",
+    "preact": "^10.7.1",
     "prettier": "^2.6.2",
     "typescript": "^4.6.3",
-    "vite": "^2.9.2"
+    "vite": "^2.9.5"
   },
   "eslintConfig": {
     "env": {
