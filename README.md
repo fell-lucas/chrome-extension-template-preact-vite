@@ -27,6 +27,10 @@
 
 This template was made with a goal to reduce as much as possible the extension's bundle size, while also having a blazing fast build speed and overall great developer experience with Vite.
 
+The base chunk sizes when cloning and building the template:
+![image](https://user-images.githubusercontent.com/47724710/163683695-693f233c-8730-4830-b26d-782a293a0835.png)
+
+
 ## Features <a name="features"></a>
 
 - [Preact 10](https://preactjs.com/)
