@@ -16,6 +16,9 @@
   "type": "module",
   "devDependencies": {
     "@babel/core": "^7.17.9",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
     "@preact/preset-vite": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/preact": "^2.0.1",
@@ -41,20 +44,6 @@
     "vite": "^2.9.5",
     "vite-plugin-windicss": "^1.8.4",
     "windicss": "^3.5.1"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "^@src/(.*)$": [
-        "<rootDir>/src/$1"
-      ],
-      "^@assets/(.*)$": [
-        "<rootDir>/src/assets/$1"
-      ]
-    },
-    "transform": {
-      "\\.[jt]sx?$": "./babel.js"
-    },
-    "testEnvironment": "jsdom"
   },
   "eslintConfig": {
     "env": {

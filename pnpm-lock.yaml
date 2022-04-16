@@ -2,6 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@babel/core': ^7.17.9
+  '@babel/plugin-proposal-class-properties': ^7.16.7
+  '@babel/plugin-transform-react-jsx': ^7.17.3
+  '@babel/preset-env': ^7.16.11
   '@preact/preset-vite': ^2.2.0
   '@testing-library/jest-dom': ^5.16.4
   '@testing-library/preact': ^2.0.1
@@ -30,6 +33,9 @@ specifiers:
 
 devDependencies:
   '@babel/core': 7.17.9
+  '@babel/plugin-proposal-class-properties': 7.16.7_@babel+core@7.17.9
+  '@babel/plugin-transform-react-jsx': 7.17.3_@babel+core@7.17.9
+  '@babel/preset-env': 7.16.11_@babel+core@7.17.9
   '@preact/preset-vite': 2.2.0_2f0f5bb4b6e97c369c0e638d2f566540
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/preact': 2.0.1_preact@10.7.1
