@@ -1,6 +1,6 @@
 <div align="center">
   <img src="public/icon-128.png" alt="logo"/>
-  <h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and Typescript</h1>
+  <h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and TypeScript</h1>
   
   ![](https://badges.aleen42.com/src/preact.svg)
   ![](https://badges.aleen42.com/src/eslint.svg)
