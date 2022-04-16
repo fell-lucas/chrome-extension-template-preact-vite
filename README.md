@@ -76,6 +76,8 @@ The base chunk sizes when cloning and building the template:
 
 ## Recommendations <a name="recommends"></a>
 VSCode Extensions
+- [windicss-intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
+- [vscode-coverage-gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 - [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [vscode-jest-runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
 
