@@ -1,16 +1,16 @@
 <div align="center">
-<img src="public/icon-128.png" alt="logo"/>
-<h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and Typescript</h1>
+  <img src="public/icon-128.png" alt="logo"/>
+  <h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and Typescript</h1>
+  
+  ![](https://badges.aleen42.com/src/preact.svg)
+  ![](https://badges.aleen42.com/src/eslint.svg)
+  ![](https://badges.aleen42.com/src/vitejs.svg)
+  ![](https://badges.aleen42.com/src/typescript.svg)
+  <br>
+  ![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
+  [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
 
-![](https://badges.aleen42.com/src/preact.svg)
-![](https://badges.aleen42.com/src/eslint.svg)
-![](https://badges.aleen42.com/src/vitejs.svg)
-![](https://badges.aleen42.com/src/typescript.svg)
-<br>
-![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
-[![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
-
-## </div>
+</div>
 
 ## Table of Contents
 
@@ -56,10 +56,14 @@ This template was made with a goal to reduce as much as possible the extension's
 ## Screenshots <a name="screenshots"></a>
 
 ### New Tab <a name="newtab"></a>
+<img src="https://user-images.githubusercontent.com/47724710/163656227-d3ab614f-9549-4c86-a63c-196b6e30ad17.png" width='50%' />
 
 ### Popup <a name="popup"></a>
+<img src="https://user-images.githubusercontent.com/47724710/163656209-be45a8fb-aecc-437b-b700-0f0f5d9742ca.png" width='75%' />
 
 ### Dev Tools <a name="devtools"></a>
+<img src="https://user-images.githubusercontent.com/47724710/163656187-7424c39f-d4ad-4cf7-971d-70f86da1e06f.png" width='50%' />
+
 
 ## Inspired by <br>
 
