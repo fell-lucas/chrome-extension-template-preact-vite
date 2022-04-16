@@ -6,6 +6,7 @@
   ![](https://badges.aleen42.com/src/eslint.svg)
   ![](https://badges.aleen42.com/src/vitejs.svg)
   ![](https://badges.aleen42.com/src/typescript.svg)
+  ![](https://badges.aleen42.com/src/jest_1.svg)
   <br>
   ![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
   [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
@@ -23,6 +24,7 @@
   - [NewTab](#newtab)
   - [Popup](#popup)
   - [DevTools](#devtools)
+- [Recommendations](#recommends)
 
 ## Intro <a name="intro"></a>
 
@@ -39,6 +41,7 @@ The base chunk sizes when cloning and building the template:
 - [Windi CSS](https://windicss.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Jest](https://jestjs.io/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
 ## Installation <a name="installation"></a>
@@ -70,6 +73,11 @@ The base chunk sizes when cloning and building the template:
 ### Dev Tools <a name="devtools"></a>
 
 <img src="https://user-images.githubusercontent.com/47724710/163656187-7424c39f-d4ad-4cf7-971d-70f86da1e06f.png" width='50%' />
+
+## Recommendations <a name="recommends"></a>
+VSCode Extensions
+- [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+- [vscode-jest-runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
 
 ## Inspired by <br>
 
