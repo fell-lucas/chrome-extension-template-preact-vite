@@ -1,4 +1,71 @@
-WIP
----
-Chrome Extension Boilerplate with React + Vite + TypeScript by </br>
-[Jonghakseo](https://nookpi.tistory.com/) @ [Repo](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
+<div align="center">
+<img src="public/icon-128.png" alt="logo"/>
+<h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and Typescript</h1>
+
+![](https://badges.aleen42.com/src/preact.svg)
+![](https://badges.aleen42.com/src/eslint.svg)
+![](https://badges.aleen42.com/src/vitejs.svg)
+![](https://badges.aleen42.com/src/typescript.svg)
+<br>
+![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
+[![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
+
+## </div>
+
+## Table of Contents
+
+- [Intro](#intro)
+- [Features](#features)
+- [Installation](#installation)
+  - [Procedures](#procedures)
+- [Screenshots](#screenshots)
+  - [NewTab](#newtab)
+  - [Popup](#popup)
+  - [DevTools](#devtools)
+
+## Intro <a name="intro"></a>
+
+This template was made with a goal to reduce as much as possible the extension's bundle size, while also having a blazing fast build speed and overall great developer experience with Vite.
+
+## Features <a name="features"></a>
+
+- [Preact 10](https://preactjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Windi CSS](https://windicss.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
+
+## Installation <a name="installation"></a>
+
+### Procedures <a name="procedures"></a>
+
+1. Clone this repository.
+2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
+3. Run `pnpm i`, `yarn` or `npm i` (check your node version >= 16)
+4. Run `pnpm dev`, `yarn dev` or `npm run dev` to watch files and rebuild with any changes
+5. Load Extension on Chrome
+   1. Open - Chrome browser
+   2. Access - chrome://extensions
+   3. Check - Developer mode
+   4. Find - Load unpacked extension
+   5. Select - `dist` folder in this project (after dev or build)
+6. If you want to build without watching, run `pnpm build`, `yarn build` or `npm run build`.
+
+## Screenshots <a name="screenshots"></a>
+
+### New Tab <a name="newtab"></a>
+
+### Popup <a name="popup"></a>
+
+### Dev Tools <a name="devtools"></a>
+
+## Inspired by <br>
+
+[Jonghakseo](https://nookpi.tistory.com/) @ [Repo](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) <br>
+and [Vitesse Webext](https://github.com/antfu/vitesse-webext)
+
+## License
+
+Distributed under the [MIT License](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/blob/main/LICENSE).
