@@ -14,7 +14,7 @@ export interface ManifestType {
   background?:
     | {
         service_worker: string;
-        type?: "module";
+        type?: 'module';
       }
     | undefined;
   chrome_settings_overrides?:
@@ -192,7 +192,7 @@ export interface ManifestType {
     | undefined;
   requirements?:
     | {
-        "3D"?:
+        '3D'?:
           | {
               features?: string[] | undefined;
             }

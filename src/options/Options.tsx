@@ -1,4 +1,4 @@
-import { Logo } from "@src/assets/img/logo";
+import { Logo } from '@src/assets/img/logo';
 
 const Options = () => {
   return (

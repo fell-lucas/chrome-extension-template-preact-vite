@@ -1,10 +1,10 @@
-import { JSX, render } from "preact";
-import "./styles";
+import { JSX, render } from 'preact';
+import './styles';
 
 export const initElement = (elem: JSX.Element) => {
-  const appContainer = document.querySelector("#app-container");
+  const appContainer = document.querySelector('#app-container');
   if (!appContainer) {
-    throw new Error("Can not find AppContainer");
+    throw new Error('Can not find AppContainer');
   }
   render(elem, appContainer);
 };

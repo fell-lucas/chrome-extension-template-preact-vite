@@ -1,5 +1,4 @@
-import { h } from "preact";
-import { Logo } from "@assets/img/logo";
+import { Logo } from '@assets/img/logo';
 
 const Popup = () => {
   return (
