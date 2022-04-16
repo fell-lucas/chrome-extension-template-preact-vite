@@ -1,4 +1,4 @@
-const DevTools = () => {
+const Devtools = () => {
   return (
     <div>
       <h1>Dev Tools Panel</h1>
@@ -6,4 +6,4 @@ const DevTools = () => {
   );
 };
 
-export default DevTools;
+export default Devtools;
