@@ -2,36 +2,36 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 import preact from "@preact/preset-vite";
 import makeManifest from "./scripts/make-manifest";
+import WindiCSS from "vite-plugin-windicss";
 
-const root = resolve(__dirname, "src");
-const pagesDir = resolve(root, "pages");
-const assetsDir = resolve(root, "assets");
+const src = resolve(__dirname, "src");
+const assetsDir = resolve(src, "assets");
 const outDir = resolve(__dirname, "dist");
 const publicDir = resolve(__dirname, "public");
 
 export default defineConfig({
   resolve: {
     alias: {
-      "@src": root,
+      "@src": src,
       "@assets": assetsDir,
-      "@pages": pagesDir,
     },
   },
-  plugins: [makeManifest(), preact()],
+  plugins: [makeManifest(), preact(), WindiCSS()],
   publicDir,
   build: {
     outDir,
     rollupOptions: {
       input: {
-        content: resolve(pagesDir, "Content", "index.ts"),
-        background: resolve(pagesDir, "Background", "index.ts"),
-        popup: resolve(pagesDir, "Popup", "index.tsx"),
-        newtab: resolve(pagesDir, "Newtab", "index.tsx"),
-        devtools: resolve(pagesDir, "DevTools", "index.tsx"),
-        options: resolve(pagesDir, "Options", "index.tsx"),
+        content: resolve(src, "content", "index.ts"),
+        background: resolve(src, "background", "index.html"),
+        popup: resolve(src, "popup", "index.html"),
+        newtab: resolve(src, "newtab", "index.html"),
+        devtools: resolve(src, "devtools", "index.html"),
+        options: resolve(src, "options", "index.html"),
       },
-      output: { entryFileNames: (chunk) => `${chunk.name}.js` },
-      external: ["chrome"],
+      output: {
+        entryFileNames: (chunk) => `src/${chunk.name}/index.js`,
+      },
     },
   },
 });

@@ -1,7 +1,8 @@
 {
   "watch": [
     "src",
-    "scripts"
+    "scripts",
+    "vite.config.ts"
   ],
   "ext": "tsx,css,html,ts",
   "ignore": [
