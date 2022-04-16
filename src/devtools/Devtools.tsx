@@ -15,7 +15,9 @@ const Devtools = () => {
           Learn Preact
         </a>
       </p>
-      <p class='p-6 text-3xl text-purple-400'>Devtools panel</p>
+      <p data-testid='devtools_text' class='p-6 text-3xl text-purple-400'>
+        Dev tools panel
+      </p>
     </div>
   );
 };

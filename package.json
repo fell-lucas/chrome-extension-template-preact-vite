@@ -11,6 +11,7 @@
     "build": "vite build",
     "dev": "nodemon",
     "test": "jest",
+    "test:cov": "jest --coverage",
     "format": "prettier src/ scripts/ --write"
   },
   "type": "module",

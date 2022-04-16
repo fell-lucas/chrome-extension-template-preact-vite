@@ -15,7 +15,9 @@ const Newtab = () => {
           Learn Preact
         </a>
       </p>
-      <p class='p-6 text-3xl text-purple-400'>New tab page</p>
+      <p data-testid='newtab_text' class='p-6 text-3xl text-purple-400'>
+        New tab page
+      </p>
     </div>
   );
 };
