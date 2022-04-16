@@ -9,6 +9,7 @@
   <br>
   ![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
   [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
+  ![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-ext-template-preact-windi-vite)
 
 </div>
 
