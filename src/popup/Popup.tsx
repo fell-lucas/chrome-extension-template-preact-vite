@@ -1,4 +1,5 @@
-import { Logo } from "@src/assets/img/logo";
+import { h } from "preact";
+import { Logo } from "@assets/img/logo";
 
 const Popup = () => {
   return (
@@ -15,7 +16,9 @@ const Popup = () => {
           Learn Preact
         </a>
       </p>
-      <p class="p-6 text-3xl text-purple-400">Pop up page</p>
+      <p data-testid="popup_text" class="p-6 text-3xl text-purple-400">
+        Pop up page
+      </p>
     </div>
   );
 };
