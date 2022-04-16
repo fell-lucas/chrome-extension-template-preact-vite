@@ -15,6 +15,7 @@ const Popup = () => {
           Learn Preact
         </a>
       </p>
+      <p className="p-6 text-3xl text-purple-400">Pop up page</p>
     </div>
   );
 };
