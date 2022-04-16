@@ -76,7 +76,7 @@
         "warn",
         {
           "singleQuote": true,
-          "semi": true,
+          "jsxSingleQuote": true,
           "trailingComma": "es5",
           "arrowParens": "avoid"
         }
