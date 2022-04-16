@@ -4,7 +4,7 @@ export default {
     '^@assets/(.*)$': ['<rootDir>/src/assets/$1'],
   },
   transform: {
-    '\\.[jt]sx?$': './babelJest.js',
+    '\\.[jt]sx?$': './babel-jest.js',
   },
   testEnvironment: 'jsdom',
 };
