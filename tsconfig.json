@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "types": ["vite/client", "node", "chrome"],
+    "types": ["vite/client", "node", "chrome", "jest"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": false,
     "skipLibCheck": false,
@@ -20,8 +20,7 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["src/*"],
-      "@assets/*": ["src/assets/*"],
-      "@pages/*": ["src/pages/*"]
+      "@assets/*": ["src/assets/*"]
     }
   },
   "include": ["src", "scripts", "vite.config.ts"]

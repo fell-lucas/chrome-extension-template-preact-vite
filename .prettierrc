@@ -1,6 +1,6 @@
 {
-  "singleQuote": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
   "trailingComma": "es5",
-  "requirePragma": false,
-  "arrowParens": "always"
+  "arrowParens": "avoid"
 }

@@ -31,7 +31,6 @@ This template was made with a goal to reduce as much as possible the extension's
 The base chunk sizes when cloning and building the template:
 ![image](https://user-images.githubusercontent.com/47724710/163683695-693f233c-8730-4830-b26d-782a293a0835.png)
 
-
 ## Features <a name="features"></a>
 
 - [Preact 10](https://preactjs.com/)
@@ -61,14 +60,16 @@ The base chunk sizes when cloning and building the template:
 ## Screenshots <a name="screenshots"></a>
 
 ### New Tab <a name="newtab"></a>
+
 <img src="https://user-images.githubusercontent.com/47724710/163656227-d3ab614f-9549-4c86-a63c-196b6e30ad17.png" width='50%' />
 
 ### Popup <a name="popup"></a>
+
 <img src="https://user-images.githubusercontent.com/47724710/163656209-be45a8fb-aecc-437b-b700-0f0f5d9742ca.png" width='75%' />
 
 ### Dev Tools <a name="devtools"></a>
-<img src="https://user-images.githubusercontent.com/47724710/163656187-7424c39f-d4ad-4cf7-971d-70f86da1e06f.png" width='50%' />
 
+<img src="https://user-images.githubusercontent.com/47724710/163656187-7424c39f-d4ad-4cf7-971d-70f86da1e06f.png" width='50%' />
 
 ## Inspired by <br>
 
