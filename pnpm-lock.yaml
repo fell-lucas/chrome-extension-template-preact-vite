@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.17.9
@@ -36,23 +36,23 @@ devDependencies:
   '@babel/plugin-proposal-class-properties': 7.16.7_@babel+core@7.17.9
   '@babel/plugin-transform-react-jsx': 7.17.3_@babel+core@7.17.9
   '@babel/preset-env': 7.16.11_@babel+core@7.17.9
-  '@preact/preset-vite': 2.2.0_2f0f5bb4b6e97c369c0e638d2f566540
+  '@preact/preset-vite': 2.2.0_f4hvxnfw5f6dnhaomogs6vtfia
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/preact': 2.0.1_preact@10.7.1
   '@types/chrome': 0.0.180
   '@types/jest': 27.4.1
   '@types/node': 17.0.24
-  '@typescript-eslint/eslint-plugin': 5.19.0_f34adc8488d2e4f014fe61432d70cbf2
-  '@typescript-eslint/parser': 5.19.0_eslint@8.13.0+typescript@4.6.3
+  '@typescript-eslint/eslint-plugin': 5.19.0_6nfnzbei2lspafh6mfbs24gl6i
+  '@typescript-eslint/parser': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
   babel-jest: 27.5.1_@babel+core@7.17.9
   eslint: 8.13.0
-  eslint-config-preact: 1.3.0_4f9b85e1acda728c6d5d81e488916a8d
+  eslint-config-preact: 1.3.0_j6nylynm3jziy3k5qhsirelkru
   eslint-config-prettier: 8.5.0_eslint@8.13.0
   eslint-plugin-import: 2.26.0_eslint@8.13.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.13.0
-  eslint-plugin-prettier: 4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f
+  eslint-plugin-prettier: 4.0.0_dak2zfnx7mtmcpd5jcuo55rnb4
   jest: 27.5.1
-  jest-preset-preact: 4.0.5_965a22dbf3cb7d5a8af365c4c6484530
+  jest-preset-preact: 4.0.5_szncfw7tzn6vvcxtmxcmmscfga
   nodemon: 2.0.15
   preact: 10.7.1
   preact-render-to-string: 5.1.21_preact@10.7.1
@@ -110,7 +110,7 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/eslint-parser/7.17.0_@babel+core@7.17.9+eslint@8.13.0:
+  /@babel/eslint-parser/7.17.0_oqkaaegtg3mwlb3uu272jpxkji:
     resolution: {integrity: sha512-PUEJ7ZBXbRkbq3qqM/jZ2nIuakUBqCYc7Qf52Lj7dlZ6zERnqisdHioL0l4wwQZnmskMeasqUNzLBFKs3nylXA==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
@@ -1613,7 +1613,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/preset-vite/2.2.0_2f0f5bb4b6e97c369c0e638d2f566540:
+  /@preact/preset-vite/2.2.0_f4hvxnfw5f6dnhaomogs6vtfia:
     resolution: {integrity: sha512-xOtPzyVSPphUF/tRnzjxkCR/ovbCS6O25ekdCw5MGKcaAkb6PDRo50tS1x2n0+O9qL7Z/qrHJKpyCVn29A4iMg==}
     peerDependencies:
       '@babel/core': 7.x
@@ -1868,7 +1868,7 @@ packages:
       '@types/yargs-parser': 21.0.0
     dev: true
 
-  /@typescript-eslint/eslint-plugin/5.19.0_f34adc8488d2e4f014fe61432d70cbf2:
+  /@typescript-eslint/eslint-plugin/5.19.0_6nfnzbei2lspafh6mfbs24gl6i:
     resolution: {integrity: sha512-w59GpFqDYGnWFim9p6TGJz7a3qWeENJuAKCqjGSx+Hq/bwq3RZwXYqy98KIfN85yDqz9mq6QXiY5h0FjGQLyEg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1879,10 +1879,10 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.19.0_eslint@8.13.0+typescript@4.6.3
+      '@typescript-eslint/parser': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
       '@typescript-eslint/scope-manager': 5.19.0
-      '@typescript-eslint/type-utils': 5.19.0_eslint@8.13.0+typescript@4.6.3
-      '@typescript-eslint/utils': 5.19.0_eslint@8.13.0+typescript@4.6.3
+      '@typescript-eslint/type-utils': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
+      '@typescript-eslint/utils': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
       debug: 4.3.4
       eslint: 8.13.0
       functional-red-black-tree: 1.0.1
@@ -1895,20 +1895,20 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/experimental-utils/5.19.0_eslint@8.13.0+typescript@4.6.3:
+  /@typescript-eslint/experimental-utils/5.19.0_jzhokl4shvj5szf5bgr66kln2a:
     resolution: {integrity: sha512-F+X/TTzmb2UXbghY1LrNLNDjMcGZMhKzXuzvu0xD+YEB77EamLM7zMOLuz2kP5807IJRDLBoAFFPYa7HT62sYg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@typescript-eslint/utils': 5.19.0_eslint@8.13.0+typescript@4.6.3
+      '@typescript-eslint/utils': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
       eslint: 8.13.0
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /@typescript-eslint/parser/5.19.0_eslint@8.13.0+typescript@4.6.3:
+  /@typescript-eslint/parser/5.19.0_jzhokl4shvj5szf5bgr66kln2a:
     resolution: {integrity: sha512-yhktJjMCJX8BSBczh1F/uY8wGRYrBeyn84kH6oyqdIJwTGKmzX5Qiq49LRQ0Jh0LXnWijEziSo6BRqny8nqLVQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1936,7 +1936,7 @@ packages:
       '@typescript-eslint/visitor-keys': 5.19.0
     dev: true
 
-  /@typescript-eslint/type-utils/5.19.0_eslint@8.13.0+typescript@4.6.3:
+  /@typescript-eslint/type-utils/5.19.0_jzhokl4shvj5szf5bgr66kln2a:
     resolution: {integrity: sha512-O6XQ4RI4rQcBGshTQAYBUIGsKqrKeuIOz9v8bckXZnSeXjn/1+BDZndHLe10UplQeJLXDNbaZYrAytKNQO2T4Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1946,7 +1946,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 5.19.0_eslint@8.13.0+typescript@4.6.3
+      '@typescript-eslint/utils': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
       debug: 4.3.4
       eslint: 8.13.0
       tsutils: 3.21.0_typescript@4.6.3
@@ -1981,7 +1981,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.19.0_eslint@8.13.0+typescript@4.6.3:
+  /@typescript-eslint/utils/5.19.0_jzhokl4shvj5szf5bgr66kln2a:
     resolution: {integrity: sha512-ZuEckdupXpXamKvFz/Ql8YnePh2ZWcwz7APICzJL985Rp5C2AYcHO62oJzIqNhAMtMK6XvrlBTZeNG8n7gS3lQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -3097,19 +3097,19 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-preact/1.3.0_4f9b85e1acda728c6d5d81e488916a8d:
+  /eslint-config-preact/1.3.0_j6nylynm3jziy3k5qhsirelkru:
     resolution: {integrity: sha512-yHYXg5qNzEJd3D/30AmsIW0W8MuY858KpApXp7xxBF08IYUljSKCOqMx+dVucXHQnAm7+11wOnMkgVHIBAechw==}
     peerDependencies:
       eslint: 6.x || 7.x || 8.x
     dependencies:
       '@babel/core': 7.17.9
-      '@babel/eslint-parser': 7.17.0_@babel+core@7.17.9+eslint@8.13.0
+      '@babel/eslint-parser': 7.17.0_oqkaaegtg3mwlb3uu272jpxkji
       '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.17.9
       '@babel/plugin-syntax-decorators': 7.17.0_@babel+core@7.17.9
       '@babel/plugin-syntax-jsx': 7.16.7_@babel+core@7.17.9
       eslint: 8.13.0
       eslint-plugin-compat: 4.0.2_eslint@8.13.0
-      eslint-plugin-jest: 25.7.0_4f9b85e1acda728c6d5d81e488916a8d
+      eslint-plugin-jest: 25.7.0_j6nylynm3jziy3k5qhsirelkru
       eslint-plugin-react: 7.29.4_eslint@8.13.0
       eslint-plugin-react-hooks: 4.4.0_eslint@8.13.0
     transitivePeerDependencies:
@@ -3182,7 +3182,7 @@ packages:
       tsconfig-paths: 3.14.1
     dev: true
 
-  /eslint-plugin-jest/25.7.0_4f9b85e1acda728c6d5d81e488916a8d:
+  /eslint-plugin-jest/25.7.0_j6nylynm3jziy3k5qhsirelkru:
     resolution: {integrity: sha512-PWLUEXeeF7C9QGKqvdSbzLOiLTx+bno7/HC9eefePfEb257QFHg7ye3dh80AZVkaa/RQsBB1Q/ORQvg2X7F0NQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     peerDependencies:
@@ -3195,8 +3195,8 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.19.0_f34adc8488d2e4f014fe61432d70cbf2
-      '@typescript-eslint/experimental-utils': 5.19.0_eslint@8.13.0+typescript@4.6.3
+      '@typescript-eslint/eslint-plugin': 5.19.0_6nfnzbei2lspafh6mfbs24gl6i
+      '@typescript-eslint/experimental-utils': 5.19.0_jzhokl4shvj5szf5bgr66kln2a
       eslint: 8.13.0
       jest: 27.5.1
     transitivePeerDependencies:
@@ -3225,7 +3225,7 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f:
+  /eslint-plugin-prettier/4.0.0_dak2zfnx7mtmcpd5jcuo55rnb4:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -4342,7 +4342,7 @@ packages:
       jest-resolve: 27.5.1
     dev: true
 
-  /jest-preset-preact/4.0.5_965a22dbf3cb7d5a8af365c4c6484530:
+  /jest-preset-preact/4.0.5_szncfw7tzn6vvcxtmxcmmscfga:
     resolution: {integrity: sha512-MnU7mfpnwopJkdx0WoEyRmrNDIvRN+w6sOur0zEhaRYYMo0gJM7UdZHWTV8k6uo0+ypY+m0kQW6kMukUx4v8JQ==}
     peerDependencies:
       jest: 26.x || 27.x
