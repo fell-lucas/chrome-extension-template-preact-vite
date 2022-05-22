@@ -23,7 +23,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         content: resolve(src, 'content', 'index.ts'),
-        background: resolve(src, 'background', 'index.html'),
+        background: resolve(src, 'background', 'index.ts'),
         popup: resolve(src, 'popup', 'index.html'),
         newtab: resolve(src, 'newtab', 'index.html'),
         devtools: resolve(src, 'devtools', 'index.html'),
