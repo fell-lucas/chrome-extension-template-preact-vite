@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "ryanluker.vscode-coverage-gutters",
+    "orta.vscode-jest",
+    "firsttris.vscode-jest-runner",
+    "esbenp.prettier-vscode",
+    "voorjaar.windicss-intellisense"
+  ]
+}
