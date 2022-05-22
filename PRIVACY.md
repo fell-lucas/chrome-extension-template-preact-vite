@@ -14,4 +14,4 @@ Since we don't collect any information on you, we also cannot notify you of chan
 
 ## How can I ask questions about this policy?
 
-You can ask questions by filing an issue in the [issue tracker](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/issues) on GitHub.
+You can ask questions by filing an issue in the [issue tracker](https://github.com/username/my-project/issues) on GitHub.

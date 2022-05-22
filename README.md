@@ -48,7 +48,7 @@ The chunk sizes when cloning and building the template:
 
 ### Procedures <a name="procedures"></a>
 
-1. Clone this repository.
+1. Run `npx degit fell-lucas/chrome-ext-template-preact-windi-vite my-project` or click `Use this template` on GitHub.
 2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
 3. Run `pnpm i`, `yarn` or `npm i` (check your node version >= 16)
 4. Run `pnpm dev`, `yarn dev` or `npm run dev` to watch files and rebuild with any changes
@@ -75,7 +75,11 @@ The chunk sizes when cloning and building the template:
 <img src="https://user-images.githubusercontent.com/47724710/163656187-7424c39f-d4ad-4cf7-971d-70f86da1e06f.png" width='50%' />
 
 ## Recommendations <a name="recommends"></a>
+
 VSCode Extensions
+
+- [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [windicss-intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
 - [vscode-coverage-gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 - [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
