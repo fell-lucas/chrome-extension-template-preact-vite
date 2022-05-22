@@ -7,7 +7,7 @@ const manifest: ManifestType = {
   version: packageJson.version,
   description: packageJson.description,
   options_page: 'src/options/index.html',
-  background: { service_worker: 'src/background/index.html' },
+  background: { service_worker: 'src/background/index.js' },
   action: {
     default_popup: 'src/popup/index.html',
     default_icon: 'icon-34.png',
