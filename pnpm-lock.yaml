@@ -8,7 +8,7 @@ specifiers:
   '@preact/preset-vite': ^2.5.0
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/preact': ^2.0.1
-  '@types/chrome': ^0.0.180
+  '@types/chrome': ^0.0.220
   '@types/jest': ^27.5.2
   '@types/node': ^17.0.45
   '@typescript-eslint/eslint-plugin': ^5.54.1
@@ -39,7 +39,7 @@ devDependencies:
   '@preact/preset-vite': 2.5.0_dhquxhuqzz6roqjnbimkhmb5j4
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/preact': 2.0.1_preact@10.13.0
-  '@types/chrome': 0.0.180
+  '@types/chrome': 0.0.220
   '@types/jest': 27.5.2
   '@types/node': 17.0.45
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
@@ -1845,8 +1845,8 @@ packages:
       '@babel/types': 7.21.2
     dev: true
 
-  /@types/chrome/0.0.180:
-    resolution: {integrity: sha512-A/CuuKAaHq2CHEpYBAtl0lp2ib7TTXK7VjJI4q+c+1U/HDvZLJ8IlsdEDzzHdvkNdh36bGONxrMnO9YZrKqbAw==}
+  /@types/chrome/0.0.220:
+    resolution: {integrity: sha512-s5Sl4M3z3+IQLvYbR1yA+UVjX+LTtodmuZjqL6LkP+MWmuoNl1yryoJVCHBqEDZTH5p5PALGgkQVSTfjfYwXlg==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.10
