@@ -22,7 +22,7 @@
     "@babel/preset-env": "^7.20.2",
     "@preact/preset-vite": "^2.5.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/preact": "^2.0.1",
+    "@testing-library/preact": "^3.0.0",
     "@types/chrome": "^0.0.224",
     "@types/jest": "^27.5.2",
     "@types/node": "^18.0.0",
