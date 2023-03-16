@@ -2,18 +2,18 @@
   <img src="public/icon-128.png" alt="logo"/>
   <h1> Chrome extension template with <br/>Preact, Tailwind CSS, Jest, Vite and TypeScript</h1>
   
-  ![](https://badges.aleen42.com/src/chrome_extensions.svg)
-  ![](https://badges.aleen42.com/src/preact.svg)
-  ![](https://badges.aleen42.com/src/tailwindcss.svg)
-  ![](https://badges.aleen42.com/src/jest_1.svg)
-  ![](https://badges.aleen42.com/src/vitejs.svg)
-  ![](https://badges.aleen42.com/src/typescript.svg)
-  ![](https://badges.aleen42.com/src/eslint.svg)
+![](https://badges.aleen42.com/src/chrome_extensions.svg)
 
-  <br>
-  ![GitHub action badge](https://github.com/fell-lucas/chrome-extension-template-preact-vite/actions/workflows/build.yml/badge.svg)
-  [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-extension-template-preact-vite.svg)](https://hits.deltapapa.io)
-  ![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-extension-template-preact-vite)
+![](https://badges.aleen42.com/src/preact.svg)
+![](https://badges.aleen42.com/src/tailwindcss.svg)
+![](https://badges.aleen42.com/src/jest_1.svg)
+![](https://badges.aleen42.com/src/vitejs.svg)
+![](https://badges.aleen42.com/src/typescript.svg)
+![](https://badges.aleen42.com/src/eslint.svg)
+
+![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
+[![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
+![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-ext-template-preact-windi-vite)
 
 </div>
 
@@ -38,7 +38,7 @@ The chunk sizes when cloning and building the template:
 
 ## Features <a name="features"></a>
 
-- [Preact 10](https://preactjs.com/)
+- [Preact](https://preactjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
