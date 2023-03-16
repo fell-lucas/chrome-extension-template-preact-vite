@@ -2,7 +2,7 @@ import { Logo } from '@src/assets/img/logo';
 
 const Options = () => {
   return (
-    <div class='bg-[#673ab8] flex flex-1 flex-col text-center p-8 text-lg h-screen justify-center'>
+    <div class='flex h-screen flex-1 flex-col justify-center bg-[#673ab8] p-8 text-center text-lg'>
       <Logo />
       <p class='text-white'>Hello Vite + Preact!</p>
       <p class='text-white'>
