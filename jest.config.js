@@ -1,3 +1,4 @@
+/** @type {import('jest').Config} */
 export default {
   moduleNameMapper: {
     '^@src/(.*)$': ['<rootDir>/src/$1'],
@@ -7,4 +8,8 @@ export default {
     '\\.[jt]sx?$': './babel-jest.js',
   },
   testEnvironment: 'jsdom',
+  extensionsToTreatAsEsm: ['.ts', '.tsx'],
+  testEnvironmentOptions: {
+    customExportConditions: ['node', 'node-addons'],
+  },
 };
