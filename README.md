@@ -2,11 +2,14 @@
   <img src="public/icon-128.png" alt="logo"/>
   <h1> Chrome extension template with <br/>Preact, Tailwind CSS, Jest, Vite and TypeScript</h1>
   
+  ![](https://badges.aleen42.com/src/chrome_extensions.svg)
   ![](https://badges.aleen42.com/src/preact.svg)
-  ![](https://badges.aleen42.com/src/eslint.svg)
+  ![](https://badges.aleen42.com/src/tailwindcss.svg)
+  ![](https://badges.aleen42.com/src/jest_1.svg)
   ![](https://badges.aleen42.com/src/vitejs.svg)
   ![](https://badges.aleen42.com/src/typescript.svg)
-  ![](https://badges.aleen42.com/src/jest_1.svg)
+  ![](https://badges.aleen42.com/src/eslint.svg)
+
   <br>
   ![GitHub action badge](https://github.com/fell-lucas/chrome-extension-template-preact-vite/actions/workflows/build.yml/badge.svg)
   [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-extension-template-preact-vite.svg)](https://hits.deltapapa.io)
