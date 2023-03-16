@@ -1,16 +1,19 @@
 <div align="center">
   <img src="public/icon-128.png" alt="logo"/>
-  <h1> Chrome extension template with <br/>Preact, Windi CSS, Vite and TypeScript</h1>
+  <h1> Chrome extension template with <br/>Preact, Tailwind CSS, Jest, Vite and TypeScript</h1>
   
-  ![](https://badges.aleen42.com/src/preact.svg)
-  ![](https://badges.aleen42.com/src/eslint.svg)
-  ![](https://badges.aleen42.com/src/vitejs.svg)
-  ![](https://badges.aleen42.com/src/typescript.svg)
-  ![](https://badges.aleen42.com/src/jest_1.svg)
-  <br>
-  ![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
-  [![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
-  ![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-ext-template-preact-windi-vite)
+![](https://badges.aleen42.com/src/chrome_extensions.svg)
+
+![](https://badges.aleen42.com/src/preact.svg)
+![](https://badges.aleen42.com/src/tailwindcss.svg)
+![](https://badges.aleen42.com/src/jest_1.svg)
+![](https://badges.aleen42.com/src/vitejs.svg)
+![](https://badges.aleen42.com/src/typescript.svg)
+![](https://badges.aleen42.com/src/eslint.svg)
+
+![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
+[![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
+![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-ext-template-preact-windi-vite)
 
 </div>
 
@@ -35,10 +38,10 @@ The chunk sizes when cloning and building the template:
 
 ## Features <a name="features"></a>
 
-- [Preact 10](https://preactjs.com/)
+- [Preact](https://preactjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Windi CSS](https://windicss.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Jest](https://jestjs.io/)
@@ -50,7 +53,7 @@ All dependencies are constantly reviewed and updated to ensure the template is a
 
 ### Procedures <a name="procedures"></a>
 
-1. Run `npx degit fell-lucas/chrome-ext-template-preact-windi-vite my-project` or click `Use this template` on GitHub.
+1. Run `npx degit fell-lucas/chrome-extension-template-preact-vite my-project` or click `Use this template` on GitHub.
 2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
 3. Run `pnpm i`, `yarn` or `npm i` (check your node version >= 16)
 4. Run `pnpm dev`, `yarn dev` or `npm run dev` to watch files and rebuild with any changes
@@ -82,7 +85,7 @@ VSCode Extensions
 
 - [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [windicss-intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
+- [vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [vscode-coverage-gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
 - [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [vscode-jest-runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
@@ -94,4 +97,4 @@ and [Vitesse Webext](https://github.com/antfu/vitesse-webext)
 
 ## License
 
-Distributed under the [MIT License](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/blob/main/LICENSE).
+Distributed under the [MIT License](https://github.com/fell-lucas/chrome-extension-template-preact-vite/blob/main/LICENSE).

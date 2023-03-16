@@ -2,7 +2,7 @@ import { Logo } from '@assets/img/logo';
 
 const Popup = () => {
   return (
-    <div class='bg-[#673ab8] w-full text-center p-8 text-lg'>
+    <div class='w-full bg-[#673ab8] p-8 text-center text-lg'>
       <Logo />
       <p class='text-white'>Hello Vite + Preact!</p>
       <p class='text-white'>

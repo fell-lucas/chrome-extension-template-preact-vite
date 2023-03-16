@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import preact from '@preact/preset-vite';
 import makeManifest from './scripts/make-manifest';
-import WindiCSS from 'vite-plugin-windicss';
 
 const src = resolve(__dirname, 'src');
 const assetsDir = resolve(src, 'assets');
@@ -16,7 +15,7 @@ export default defineConfig({
       '@assets': assetsDir,
     },
   },
-  plugins: [makeManifest(), preact(), WindiCSS()],
+  plugins: [makeManifest(), preact()],
   publicDir,
   build: {
     outDir,
