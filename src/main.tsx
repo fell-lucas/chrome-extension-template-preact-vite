@@ -1,5 +1,5 @@
 import { JSX, render } from 'preact';
-import './styles';
+import './styles/index.css';
 
 export const initElement = (elem: JSX.Element) => {
   const appContainer = document.querySelector('#app-container');
