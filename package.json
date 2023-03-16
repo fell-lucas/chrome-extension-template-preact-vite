@@ -1,11 +1,11 @@
 {
-  "name": "chrome-ext-template-preact-windi-vite",
+  "name": "chrome-extension-template-preact-vite",
   "version": "0.0.1",
-  "description": "Chrome extension template with Preact, Windi CSS, Vite and Typescript preconfigured.",
+  "description": "Chrome extension template with Preact, Tailwind CSS, Vite and Typescript preconfigured.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite.git"
+    "url": "https://github.com/fell-lucas/chrome-extension-template-preact-vite.git"
   },
   "scripts": {
     "build": "vite build",

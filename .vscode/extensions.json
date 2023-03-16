@@ -5,6 +5,6 @@
     "orta.vscode-jest",
     "firsttris.vscode-jest-runner",
     "esbenp.prettier-vscode",
-    "voorjaar.windicss-intellisense"
+    "bradlc.vscode-tailwindcss"
   ]
 }
