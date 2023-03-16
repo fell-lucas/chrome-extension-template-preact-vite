@@ -44,6 +44,8 @@ The chunk sizes when cloning and building the template:
 - [Jest](https://jestjs.io/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
+All dependencies are constantly reviewed and updated to ensure the template is always using the latest and greatest features!
+
 ## Installation <a name="installation"></a>
 
 ### Procedures <a name="procedures"></a>
