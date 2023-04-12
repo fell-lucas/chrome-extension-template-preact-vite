@@ -42,7 +42,7 @@
     "nodemon": "^2.0.21",
     "postcss": "^8.4.21",
     "preact": "^10.13.0",
-    "preact-render-to-string": "^5.2.6",
+    "preact-render-to-string": "^6.0.0",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.4",
     "tailwindcss": "^3.2.7",
