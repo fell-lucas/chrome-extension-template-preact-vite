@@ -21,7 +21,7 @@
     "@babel/plugin-transform-react-jsx": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
     "@preact/preset-vite": "^2.5.0",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/preact": "^3.0.0",
     "@types/chrome": "^0.0.235",
     "@types/jest": "^29.0.0",
