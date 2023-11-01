@@ -2107,7 +2107,7 @@ packages:
       chalk: 3.0.0
       css.escape: 1.5.1
       dom-accessibility-api: 0.5.16
-      jest: 29.5.0(@types/node@18.14.6)
+      jest: 29.5.0(@types/node@20.8.10)
       lodash: 4.17.21
       redent: 3.0.0
     dev: true
