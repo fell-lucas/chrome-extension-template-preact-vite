@@ -24,7 +24,7 @@
     "@preact/preset-vite": "^2.5.0",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/preact": "^3.0.0",
-    "@types/chrome": "^0.0.248",
+    "@types/chrome": "^0.0.250",
     "@types/jest": "^29.0.0",
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
