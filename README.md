@@ -41,14 +41,14 @@ Fresh cold `pnpm build` on this template (Vite 8 / Node 22):
 
 <img src="docs/build-metrics.png" alt="pnpm build output with chunk sizes and 99ms build time" width="760" />
 
-| Metric | Value |
-| ------ | ----- |
-| Vite build time | ~67–99 ms |
-| Shared JS chunk | 15.20 kB (6.81 kB gzip) |
-| Shared CSS | 5.80 kB (1.93 kB gzip) |
-| Page entrypoints | ~0.47–0.67 kB each |
-| Background / content | ~0.03 kB each |
-| Full `pnpm verify` | ~4.3 s locally |
+| Metric               | Value                   |
+| -------------------- | ----------------------- |
+| Vite build time      | ~67–99 ms               |
+| Shared JS chunk      | 15.20 kB (6.81 kB gzip) |
+| Shared CSS           | 5.80 kB (1.93 kB gzip)  |
+| Page entrypoints     | ~0.47–0.67 kB each      |
+| Background / content | ~0.03 kB each           |
+| Full `pnpm verify`   | ~4.3 s locally          |
 
 ## Features <a name="features"></a>
 
