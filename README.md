@@ -1,19 +1,20 @@
 <div align="center">
-  <img src="public/icon-128.png" alt="logo"/>
-  <h1> Chrome extension template with <br/>Preact, Tailwind CSS, Jest, Vite and TypeScript</h1>
-  
+  <img src="public/icon-128.png" alt="logo" />
+  <h1>
+    Chrome extension template with <br />Preact, Tailwind CSS, Vitest, Vite and
+    TypeScript
+  </h1>
+
 ![](https://badges.aleen42.com/src/chrome_extensions.svg)
 
 ![](https://badges.aleen42.com/src/preact.svg)
 ![](https://badges.aleen42.com/src/tailwindcss.svg)
-![](https://badges.aleen42.com/src/jest_1.svg)
 ![](https://badges.aleen42.com/src/vitejs.svg)
 ![](https://badges.aleen42.com/src/typescript.svg)
 ![](https://badges.aleen42.com/src/eslint.svg)
 
-![GitHub action badge](https://github.com/fell-lucas/chrome-ext-template-preact-windi-vite/actions/workflows/build.yml/badge.svg)
-[![hits](https://hits.deltapapa.io/github/fell-lucas/chrome-ext-template-preact-windi-vite.svg)](https://hits.deltapapa.io)
-![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-ext-template-preact-windi-vite)
+![GitHub action badge](https://github.com/fell-lucas/chrome-extension-template-preact-vite/actions/workflows/build.yml/badge.svg)
+![GitHub](https://img.shields.io/github/license/fell-lucas/chrome-extension-template-preact-vite)
 
 </div>
 
@@ -23,6 +24,7 @@
 - [Features](#features)
 - [Installation](#installation)
   - [Procedures](#procedures)
+- [Scripts](#scripts)
 - [Screenshots](#screenshots)
   - [NewTab](#newtab)
   - [Popup](#popup)
@@ -31,10 +33,22 @@
 
 ## Intro <a name="intro"></a>
 
-This template was made with a goal to reduce as much as possible the extension's bundle size, while also having a blazing fast build speed and overall great developer experience with Vite.
+This template was made with a goal to reduce as much as possible the extension's
+bundle size, while also having a blazing fast build speed and overall great
+developer experience with Vite.
 
-The chunk sizes when cloning and building the template:
-![image](https://user-images.githubusercontent.com/47724710/163683695-693f233c-8730-4830-b26d-782a293a0835.png)
+Fresh cold `pnpm build` on this template (Vite 8 / Node 22):
+
+<img src="docs/build-metrics.png" alt="pnpm build output with chunk sizes and 99ms build time" width="760" />
+
+| Metric               | Value                   |
+| -------------------- | ----------------------- |
+| Vite build time      | ~67–99 ms               |
+| Shared JS chunk      | 15.20 kB (6.81 kB gzip) |
+| Shared CSS           | 5.80 kB (1.93 kB gzip)  |
+| Page entrypoints     | ~0.47–0.67 kB each      |
+| Background / content | ~0.03 kB each           |
+| Full `pnpm verify`   | ~4.3 s locally          |
 
 ## Features <a name="features"></a>
 
@@ -42,28 +56,42 @@ The chunk sizes when cloning and building the template:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [ESLint](https://eslint.org/)
+- [ESLint](https://eslint.org/) (flat config)
 - [Prettier](https://prettier.io/)
-- [Jest](https://jestjs.io/)
+- [Vitest](https://vitest.dev/)
 - [Chrome Extension Manifest Version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
-
-All dependencies are constantly reviewed and updated to ensure the template is always using the latest and greatest features!
 
 ## Installation <a name="installation"></a>
 
 ### Procedures <a name="procedures"></a>
 
-1. Run `npx degit fell-lucas/chrome-extension-template-preact-vite my-project` or click `Use this template` on GitHub.
-2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
-3. Run `pnpm i`, `yarn` or `npm i` (check your node version >= 16)
-4. Run `pnpm dev`, `yarn dev` or `npm run dev` to watch files and rebuild with any changes
-5. Load Extension on Chrome
+1. Run `npx degit fell-lucas/chrome-extension-template-preact-vite my-project` or
+   click `Use this template` on GitHub.
+2. Change `name` and `description` in `package.json` => **Auto synchronize with
+   manifest**
+3. Ensure Node.js `>= 22.22.2` (see `.nvmrc`) and enable Corepack or install
+   pnpm 10+.
+4. Run `pnpm install`
+5. Run `pnpm dev` to watch files and rebuild on changes
+6. Load Extension on Chrome
    1. Open - Chrome browser
-   2. Access - chrome://extensions
+   2. Access - `chrome://extensions`
    3. Check - Developer mode
    4. Find - Load unpacked extension
-   5. Select - `dist` folder in this project (after dev or build)
-6. If you want to build without watching, run `pnpm build`, `yarn build` or `npm run build`.
+   5. Select - `dist` folder in this project (after `dev` or `build`)
+7. For a one-off production build, run `pnpm build`.
+
+## Scripts <a name="scripts"></a>
+
+| Script           | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| `pnpm dev`       | Watch mode via `vite build --watch`            |
+| `pnpm build`     | Production build to `dist/`                    |
+| `pnpm typecheck` | TypeScript (`tsc --noEmit`)                    |
+| `pnpm lint`      | ESLint                                         |
+| `pnpm format`    | Prettier write                                 |
+| `pnpm test`      | Vitest                                         |
+| `pnpm verify`    | typecheck → lint → format check → test → build |
 
 ## Screenshots <a name="screenshots"></a>
 
@@ -81,20 +109,20 @@ All dependencies are constantly reviewed and updated to ensure the template is a
 
 ## Recommendations <a name="recommends"></a>
 
-VSCode Extensions
+VS Code extensions (also listed in `.vscode/extensions.json`):
 
 - [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [vscode-coverage-gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)
-- [vscode-jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
-- [vscode-jest-runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+- [Vitest](https://marketplace.visualstudio.com/items?itemName=vitest.explorer)
 
-## Inspired by <br>
+## Inspired by
 
-[Jonghakseo](https://nookpi.tistory.com/) @ [Repo](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) <br>
+[Jonghakseo](https://nookpi.tistory.com/) @
+[Repo](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
 and [Vitesse Webext](https://github.com/antfu/vitesse-webext)
 
 ## License
 
-Distributed under the [MIT License](https://github.com/fell-lucas/chrome-extension-template-preact-vite/blob/main/LICENSE).
+Distributed under the
+[MIT License](https://github.com/fell-lucas/chrome-extension-template-preact-vite/blob/main/LICENSE).

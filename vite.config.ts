@@ -1,12 +1,15 @@
-import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import preact from '@preact/preset-vite';
-import makeManifest from './scripts/make-manifest';
+import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'vitest/config';
+import makeManifest from './scripts/make-manifest.ts';
 
-const src = resolve(__dirname, 'src');
+const rootDir = dirname(fileURLToPath(import.meta.url));
+const src = resolve(rootDir, 'src');
 const assetsDir = resolve(src, 'assets');
-const outDir = resolve(__dirname, 'dist');
-const publicDir = resolve(__dirname, 'public');
+const outDir = resolve(rootDir, 'dist');
+const publicDir = resolve(rootDir, 'public');
 
 export default defineConfig({
   resolve: {
@@ -15,10 +18,11 @@ export default defineConfig({
       '@assets': assetsDir,
     },
   },
-  plugins: [makeManifest(), preact()],
+  plugins: [makeManifest(), preact(), tailwindcss()],
   publicDir,
   build: {
     outDir,
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         content: resolve(src, 'content', 'index.ts'),
@@ -32,5 +36,10 @@ export default defineConfig({
         entryFileNames: chunk => `src/${chunk.name}/index.js`,
       },
     },
+  },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    include: ['src/**/*.{test,spec}.{ts,tsx}'],
   },
 });

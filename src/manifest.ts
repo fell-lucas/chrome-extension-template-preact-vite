@@ -1,7 +1,6 @@
-import packageJson from '../package.json';
-import { ManifestType } from '@src/manifest-type';
+import packageJson from '../package.json' with { type: 'json' };
 
-const manifest: ManifestType = {
+const manifest = {
   manifest_version: 3,
   name: packageJson.name,
   version: packageJson.version,
@@ -28,9 +27,9 @@ const manifest: ManifestType = {
   web_accessible_resources: [
     {
       resources: ['icon-128.png', 'icon-34.png'],
-      matches: [],
+      matches: ['<all_urls>'],
     },
   ],
-};
+} satisfies chrome.runtime.ManifestV3;
 
 export default manifest;

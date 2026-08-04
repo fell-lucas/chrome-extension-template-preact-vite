@@ -5,7 +5,7 @@ describe('Options page', () => {
   it('should render the Options page', () => {
     render(<Options />);
     expect(screen.getByTestId('options_text').textContent).toEqual(
-      'Options page'
+      'Options page',
     );
   });
 });
