@@ -7,10 +7,24 @@ on:
     branches: [main]
 
 jobs:
-  build-and-test:
+  verify:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: fell-lucas/setup-pnpm-action@v2
-      - run: pnpm build
-      - run: pnpm test
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify
+        run: pnpm verify

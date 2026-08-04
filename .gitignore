@@ -1,16 +1,25 @@
 # dependencies
-/node_modules
+node_modules
 
 # testing
-/coverage
+coverage
 
 # build
-/dist
+dist
 
-# etc
+# env / editor
 .DS_Store
-.env.local
+.env
+.env.*
+!.env.example
 .idea
+.vscode/*
+!.vscode/extensions.json
 
 # generated manifest
 public/manifest.json
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*

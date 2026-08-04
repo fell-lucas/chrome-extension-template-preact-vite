@@ -5,7 +5,7 @@ describe('Newtab page', () => {
   it('should render the Newtab page', () => {
     render(<Newtab />);
     expect(screen.getByTestId('newtab_text').textContent).toEqual(
-      'New tab page'
+      'New tab page',
     );
   });
 });

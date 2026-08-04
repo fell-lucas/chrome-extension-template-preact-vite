@@ -6,7 +6,7 @@ const bootstrap = () => {
     chrome.devtools.panels.create(
       'My new Dev Tools panel',
       'src/devtools/icon-34.png',
-      'src/devtools/index.html'
+      'src/devtools/index.html',
     );
   } catch (e) {
     console.error(e);
