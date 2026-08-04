@@ -8,7 +8,7 @@
     "url": "https://github.com/fell-lucas/chrome-extension-template-preact-vite.git"
   },
   "scripts": {
-    "dev": "nodemon",
+    "dev": "vite build --watch",
     "build": "vite build",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -21,7 +21,7 @@
   },
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.22.2"
   },
   "packageManager": "pnpm@10.34.5",
   "dependencies": {
@@ -39,7 +39,6 @@
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.9.0",
     "jsdom": "^30.0.1",
-    "nodemon": "^3.1.10",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4.3.3",

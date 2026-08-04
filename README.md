@@ -56,8 +56,8 @@ developer experience with Vite.
    click `Use this template` on GitHub.
 2. Change `name` and `description` in `package.json` => **Auto synchronize with
    manifest**
-3. Ensure Node.js `>= 22.12` (see `.nvmrc`) and enable Corepack or install pnpm
-   10+.
+3. Ensure Node.js `>= 22.22.2` (see `.nvmrc`) and enable Corepack or install
+   pnpm 10+.
 4. Run `pnpm install`
 5. Run `pnpm dev` to watch files and rebuild on changes
 6. Load Extension on Chrome
@@ -72,7 +72,7 @@ developer experience with Vite.
 
 | Script           | Description                                    |
 | ---------------- | ---------------------------------------------- |
-| `pnpm dev`       | Watch mode rebuild via nodemon + Vite          |
+| `pnpm dev`       | Watch mode via `vite build --watch`            |
 | `pnpm build`     | Production build to `dist/`                    |
 | `pnpm typecheck` | TypeScript (`tsc --noEmit`)                    |
 | `pnpm lint`      | ESLint                                         |
