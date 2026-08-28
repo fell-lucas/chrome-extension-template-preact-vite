@@ -6,7 +6,7 @@ const manifest = {
   version: packageJson.version,
   description: packageJson.description,
   options_page: 'src/options/index.html',
-  background: { service_worker: 'src/background/index.js' },
+  background: { service_worker: 'src/background/index.js', type: 'module' },
   action: {
     default_popup: 'src/popup/index.html',
     default_icon: 'icon-34.png',
